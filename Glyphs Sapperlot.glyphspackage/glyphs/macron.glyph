@@ -1,0 +1,96 @@
+{
+glyphname = macron;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (308,538);
+}
+);
+layerId = "251EB316-0412-4A3C-A569-0EEB43C6D9CE";
+name = "Regular Shadow";
+shapes = (
+{
+closed = 1;
+nodes = (
+(114,559,l),
+(114,476,l),
+(434,476,l),
+(544,621,l),
+(247,621,l),
+(197,654,l)
+);
+}
+);
+width = 600;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (308,538);
+}
+);
+layerId = "2AF69027-8699-4DA7-9B20-F07C10F82EEB";
+name = "Regular InsideShadow";
+shapes = (
+{
+closed = 1;
+nodes = (
+(140,692,l),
+(247,621,l),
+(544,621,l),
+(460,692,l)
+);
+}
+);
+width = 600;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (308,538);
+}
+);
+layerId = "C85A4985-4A4B-40F2-9F5D-E307D783C1A5";
+name = "Regular InsideLight";
+shapes = (
+{
+closed = 1;
+nodes = (
+(460,692,l),
+(544,621,l),
+(544,722,l),
+(460,800,l)
+);
+}
+);
+width = 600;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (308,538);
+}
+);
+layerId = "8706937B-409E-4048-AB1C-4F6C90F3053E";
+name = "Regular Front";
+shapes = (
+{
+closed = 1;
+nodes = (
+(140,800,l),
+(140,692,l),
+(460,692,l),
+(460,800,l)
+);
+}
+);
+width = 600;
+}
+);
+unicode = 175;
+}

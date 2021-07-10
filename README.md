@@ -14,7 +14,7 @@ Install the OTFs, and place four text frames with the same content exactly on to
 
 ### Using the Source File
 
-To open and edit the source file, *Glyphs Sapperlot.glyphs*, you need the [Glyphs font editor](http://glyphsapp.com/), version 2.0 and above. Read the [tutorial on layered colorfonts](http://glyphsapp.com/colorfonts) for more details.
+To open and edit the source file, *Glyphs Sapperlot.glyphspackage* (for Glyphs 3) or *Glyphs Sapperlot.glyphs* (for Glyphs 2), you need the [Glyphs font editor](http://glyphsapp.com/). Read the [tutorial on layered colorfonts](http://glyphsapp.com/learn/creating-a-layered-color-font) for more details.
 
 ### License
 

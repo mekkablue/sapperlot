@@ -1,0 +1,73 @@
+{
+glyphname = bullet;
+layers = (
+{
+layerId = "8706937B-409E-4048-AB1C-4F6C90F3053E";
+name = "Regular Front";
+shapes = (
+{
+closed = 1;
+nodes = (
+(67,406,l),
+(67,279,l),
+(207,279,l),
+(207,406,l)
+);
+}
+);
+width = 272;
+},
+{
+layerId = "C85A4985-4A4B-40F2-9F5D-E307D783C1A5";
+name = "Regular InsideLight";
+shapes = (
+{
+closed = 1;
+nodes = (
+(207,279,l),
+(297,188,l),
+(297,309,l),
+(207,406,l)
+);
+}
+);
+width = 272;
+},
+{
+layerId = "2AF69027-8699-4DA7-9B20-F07C10F82EEB";
+name = "Regular InsideShadow";
+shapes = (
+{
+closed = 1;
+nodes = (
+(67,279,l),
+(114,240,l),
+(176,188,l),
+(297,188,l),
+(207,279,l)
+);
+}
+);
+width = 272;
+},
+{
+layerId = "251EB316-0412-4A3C-A569-0EEB43C6D9CE";
+name = "Regular Shadow";
+shapes = (
+{
+closed = 1;
+nodes = (
+(17,158,l),
+(17,43,l),
+(147,43,l),
+(297,188,l),
+(176,188,l),
+(114,240,l)
+);
+}
+);
+width = 272;
+}
+);
+unicode = 8226;
+}

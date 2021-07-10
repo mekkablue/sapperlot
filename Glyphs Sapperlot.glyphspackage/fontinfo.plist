@@ -1,0 +1,470 @@
+{
+.appVersion = "3091";
+.formatVersion = 3;
+axes = (
+{
+name = Color;
+tag = COLR;
+}
+);
+classes = (
+{
+automatic = 1;
+code = "A Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde B C Cacute Ccaron Ccedilla Cdotaccent D Eth Dcaron Dcroat E Eacute Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eogonek F G Gbreve Gcommaaccent Gdotaccent H I IJ Iacute Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek J K Kcommaaccent L Lacute Lcommaaccent Ldot M N Nacute Ncaron Ncommaaccent Ntilde O Oacute Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde P Q R Racute Rcaron Rcommaaccent S Sacute Scaron Scedilla Scommaaccent T Tcaron Tcedilla Tcommaaccent U Uacute Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ygrave Z Zacute Zcaron Zdotaccent L.001";
+name = Uppercase;
+}
+);
+customParameters = (
+{
+name = "Enforce Compatibility Check";
+value = 0;
+},
+{
+name = "Write DisplayStrings";
+value = 0;
+},
+{
+name = "Write lastChange";
+value = 0;
+}
+);
+date = "2021-07-10 14:57:59 +0000";
+familyName = "Glyphs Sapperlot";
+featurePrefixes = (
+{
+automatic = 1;
+code = "languagesystem DFLT dflt;
+
+languagesystem latn dflt;
+languagesystem latn AZE;
+languagesystem latn CRT;
+languagesystem latn KAZ;
+languagesystem latn TAT;
+languagesystem latn TRK;
+languagesystem latn ROM;
+languagesystem latn MOL;
+languagesystem latn CAT;
+";
+name = Languagesystems;
+}
+);
+features = (
+{
+automatic = 1;
+code = "feature locl;
+feature sups;
+feature ordn;
+feature fwid;
+";
+tag = aalt;
+},
+{
+automatic = 1;
+code = "lookup ccmp_Other_1 {
+	@CombiningTopAccents = [caroncomb circumflexcomb dieresiscomb tildecomb];
+	@CombiningNonTopAccents = [commaaccent ogonekcomb];
+	sub [i]' @CombiningTopAccents by [idotless];
+	sub [i]' @CombiningNonTopAccents @CombiningTopAccents by [idotless];
+} ccmp_Other_1;
+";
+tag = ccmp;
+},
+{
+automatic = 1;
+code = "lookup locl_latn_0 {
+	script latn;
+	language AZE;
+	sub i by idotaccent;
+	language CRT;
+	sub i by idotaccent;
+	language KAZ;
+	sub i by idotaccent;
+	language TAT;
+	sub i by idotaccent;
+	language TRK;
+	sub i by idotaccent;
+} locl_latn_0;
+
+lookup locl_latn_1 {
+	script latn;
+	language ROM;
+	sub Scedilla by Scommaaccent;
+	sub scedilla by scommaaccent;
+	sub Tcedilla by Tcommaaccent;
+	sub tcedilla by tcommaaccent;
+	language MOL;
+	sub Scedilla by Scommaaccent;
+	sub scedilla by scommaaccent;
+	sub Tcedilla by Tcommaaccent;
+	sub tcedilla by tcommaaccent;
+} locl_latn_1;
+
+lookup locl_latn_2 {
+	script latn;
+	language CAT;
+	sub  l' periodcentered' l by ldot;
+	sub  L' periodcentered' L by Ldot;
+} locl_latn_2;
+";
+tag = locl;
+},
+{
+automatic = 1;
+code = "sub a by a.sups;
+sub b by b.sups;
+sub d by d.sups;
+sub e by e.sups;
+sub g by g.sups;
+sub h by h.sups;
+sub i by i.sups;
+sub l by l.sups;
+sub m by m.sups;
+sub n by n.sups;
+sub o by o.sups;
+sub p by p.sups;
+sub r by r.sups;
+sub s by s.sups;
+sub t by t.sups;
+sub u by u.sups;
+";
+tag = sups;
+},
+{
+automatic = 1;
+code = "sub [zero one two three four five six seven eight nine] [A a]' by ordfeminine;
+sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;
+";
+tag = ordn;
+},
+{
+automatic = 1;
+code = "pos @Uppercase <5 0 10 0>;
+";
+tag = cpsp;
+},
+{
+automatic = 1;
+code = "sub plus by plus.full;
+";
+disabled = 1;
+tag = fwid;
+}
+);
+fontMaster = (
+{
+axesValues = (
+1
+);
+customParameters = (
+{
+name = "Master Color";
+value = (255,244,4,255);
+},
+{
+name = "Master Icon Glyph Name";
+value = H;
+},
+{
+name = "Link Metrics With First Master";
+value = 1;
+}
+);
+id = "8706937B-409E-4048-AB1C-4F6C90F3053E";
+metricValues = (
+{
+pos = 800;
+},
+{
+pos = 700;
+},
+{
+pos = 500;
+},
+{
+},
+{
+pos = -200;
+},
+{
+}
+);
+name = Front;
+userData = {
+GSOffsetHorizontal = 50;
+GSOffsetMakeStroke = 1;
+GSOffsetProportional = 1;
+GSOffsetVertical = 10;
+};
+},
+{
+axesValues = (
+2
+);
+customParameters = (
+{
+name = "Master Color";
+value = (215,20,36,255);
+},
+{
+name = "Master Icon Glyph Name";
+value = H;
+},
+{
+name = "Link Metrics With First Master";
+value = 1;
+}
+);
+id = "C85A4985-4A4B-40F2-9F5D-E307D783C1A5";
+metricValues = (
+{
+pos = 800;
+},
+{
+pos = 700;
+},
+{
+pos = 493;
+},
+{
+},
+{
+pos = -200;
+},
+{
+}
+);
+name = InsideLight;
+userData = {
+GSOffsetHorizontal = "-15";
+GSOffsetVertical = "-10";
+};
+},
+{
+axesValues = (
+3
+);
+customParameters = (
+{
+name = "Master Color";
+value = (106,15,20,255);
+},
+{
+name = "Master Icon Glyph Name";
+value = H;
+},
+{
+name = "Link Metrics With First Master";
+value = 1;
+}
+);
+id = "2AF69027-8699-4DA7-9B20-F07C10F82EEB";
+metricValues = (
+{
+pos = 800;
+},
+{
+pos = 700;
+},
+{
+pos = 493;
+},
+{
+},
+{
+pos = -200;
+},
+{
+}
+);
+name = InsideShadow;
+},
+{
+axesValues = (
+4
+);
+customParameters = (
+{
+name = "Master Color";
+value = (15,14,111,255);
+},
+{
+name = "Master Icon Glyph Name";
+value = H;
+},
+{
+name = "Link Metrics With First Master";
+value = 1;
+}
+);
+id = "251EB316-0412-4A3C-A569-0EEB43C6D9CE";
+metricValues = (
+{
+pos = 800;
+},
+{
+pos = 700;
+},
+{
+pos = 500;
+},
+{
+},
+{
+pos = -200;
+},
+{
+}
+);
+name = Shadow;
+userData = {
+GSOffsetHorizontal = 30;
+GSOffsetProportional = 1;
+GSOffsetVertical = 10;
+};
+}
+);
+instances = (
+{
+axesValues = (
+1
+);
+instanceInterpolations = {
+"8706937B-409E-4048-AB1C-4F6C90F3053E" = 1;
+};
+name = Front;
+},
+{
+axesValues = (
+2
+);
+instanceInterpolations = {
+"C85A4985-4A4B-40F2-9F5D-E307D783C1A5" = 1;
+};
+name = InsideLight;
+},
+{
+axesValues = (
+3
+);
+instanceInterpolations = {
+"2AF69027-8699-4DA7-9B20-F07C10F82EEB" = 1;
+};
+name = InsideShadow;
+},
+{
+axesValues = (
+4
+);
+instanceInterpolations = {
+"251EB316-0412-4A3C-A569-0EEB43C6D9CE" = 1;
+};
+name = Shadow;
+}
+);
+kerningLTR = {
+"8706937B-409E-4048-AB1C-4F6C90F3053E" = {
+L = {
+Y = -40;
+};
+P = {
+S = -30;
+};
+R = {
+hyphen = -30;
+};
+};
+"C85A4985-4A4B-40F2-9F5D-E307D783C1A5" = {
+L = {
+Y = -40;
+};
+P = {
+S = -30;
+};
+R = {
+hyphen = -30;
+};
+};
+"2AF69027-8699-4DA7-9B20-F07C10F82EEB" = {
+L = {
+Y = -40;
+};
+P = {
+S = -30;
+};
+R = {
+hyphen = -30;
+};
+};
+"251EB316-0412-4A3C-A569-0EEB43C6D9CE" = {
+L = {
+Y = -40;
+};
+P = {
+S = -30;
+};
+R = {
+hyphen = -30;
+};
+};
+};
+metrics = (
+{
+type = ascender;
+},
+{
+type = "cap height";
+},
+{
+type = "x-height";
+},
+{
+type = baseline;
+},
+{
+type = descender;
+},
+{
+type = "italic angle";
+}
+);
+properties = (
+{
+key = copyrights;
+values = (
+{
+language = dflt;
+value = "Copyright © 2014 by Thomas Maier. All rights reserved.";
+}
+);
+},
+{
+key = designers;
+values = (
+{
+language = dflt;
+value = "Thomas Maier";
+}
+);
+},
+{
+key = designerURL;
+value = "http://github.com/DrTypo";
+},
+{
+key = manufacturers;
+values = (
+{
+language = dflt;
+value = Glyphs;
+}
+);
+},
+{
+key = manufacturerURL;
+value = "http://www.glyphsapp.com/";
+}
+);
+unitsPerEm = 1000;
+versionMajor = 1;
+versionMinor = 2;
+}
